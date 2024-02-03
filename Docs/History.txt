@@ -1,0 +1,12 @@
+v1.1
+----
+- 'SetModule(PID, Base)' added to support DLL
+
+- Error codes added
+
+- PE Header loading removed
+
+
+v1.0
+----
+- First release

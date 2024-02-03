@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ImpREC_DLL - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "G:\Temp\RSPE0C5.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "IMPREC_DLL_EXPORTS" /Fp"Release/ImpREC_DLL.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\MT\ImpREC_DLL\Export.cpp"
+"F:\MT\ImpREC_DLL\Import.cpp"
+"F:\MT\ImpREC_DLL\ImpREC.cpp"
+"F:\MT\ImpREC_DLL\ImpREC_DLL.cpp"
+"F:\MT\ImpREC_DLL\PEFile.cpp"
+"F:\MT\ImpREC_DLL\StdAfx.cpp"
+]
+Creating command line "cl.exe @G:\Temp\RSPE0C5.TMP" 
+Creating temporary file "G:\Temp\RSPE0C6.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/ImpREC_DLL.pdb" /machine:I386 /out:"Release/ImpREC_DLL.dll" /implib:"Release/ImpREC_DLL.lib" 
+.\Release\Export.obj
+.\Release\Import.obj
+.\Release\ImpREC.obj
+.\Release\ImpREC_DLL.obj
+.\Release\PEFile.obj
+.\Release\StdAfx.obj
+]
+Creating command line "link.exe @G:\Temp\RSPE0C6.TMP"
+<h3>Output Window</h3>
+Compiling...
+Export.cpp
+Import.cpp
+ImpREC.cpp
+ImpREC_DLL.cpp
+PEFile.cpp
+StdAfx.cpp
+Linking...
+   Creating library Release/ImpREC_DLL.lib and object Release/ImpREC_DLL.exp
+
+
+
+<h3>Results</h3>
+ImpREC_DLL.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
